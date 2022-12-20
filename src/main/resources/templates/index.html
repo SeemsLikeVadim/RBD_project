@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5%22%3E">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+  <link type="image/x-icon" rel="shortcut icon" href="src/main/resources/static/favicon.ico">
+  <title>Сайт ночного клуба</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/" th:href="@{/}">Сайт ночного клуба</a>
+  </div>
+</nav>
+<!-- Slider -->
+<div class="container my-2">
+  <h1 class="text-center">Все таблицы</h1>
+  <hr>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/pass} " style="color:black;">Пропуска</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/client} " style="color:black;">Клиенты</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/order} " style="color:black;">Заказы</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/table} " style="color:black;">Столики</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/orderStatus} " style="color:black;">Статусы заказов</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/bartender} " style="color:black;">Бармены</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/barCard} " style="color:black;">Напитки</a></button>
+  <button type="button"   class="btn btn-light"><a href="/"  th:href="@{/drinkOrder} " style="color:black;">Заказы напитков</a></button>
+
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
